@@ -41,5 +41,6 @@ class Factory{
 public class Main {
     public static void main(String[] args) {
         System.out.println(Factory.carFactory.get("tesla").drive());
+        System.out.println(Factory.carFactory.get("bmw").drive());
     }
 }
